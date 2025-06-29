@@ -1,0 +1,2 @@
+worldborder add -1900 1200
+tellraw @a ["",{"text":"Border has started to shrink!","color":"gold"},{"text":"\n"},{"text":"20 minutes until ","color":"gold"},{"text":"sudden death","color":"red"},{"text":".","color":"gold"}]
