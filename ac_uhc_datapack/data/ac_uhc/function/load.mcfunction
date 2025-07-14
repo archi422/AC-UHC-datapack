@@ -1,3 +1,4 @@
+setworldspawn 0 162 0
 
 scoreboard objectives remove revealTraitor
 scoreboard objectives add revealTraitor trigger
@@ -11,6 +12,10 @@ tag @a remove revelead
 tag @a remove traitor
 
 #Init teams
+team add Spectator "Spectator"
+team modify Spectator color gray
+team modify Spectator friendlyFire false
+
 team add Blue "Blue"
 team modify Blue color blue
 team modify Blue deathMessageVisibility never
