@@ -27,7 +27,7 @@ team modify Yellow deathMessageVisibility never
 team modify Yellow friendlyFire false
 
 team add Green "Green"
-team modify Green color green
+team modify Green color dark_green
 team modify Green deathMessageVisibility never
 team modify Green friendlyFire false
 
