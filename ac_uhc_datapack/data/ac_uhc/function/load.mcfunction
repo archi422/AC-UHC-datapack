@@ -1,17 +1,34 @@
-setworldspawn 0 162 0
+worldborder set 44
+worldborder warning distance 50
+
+setworldspawn 0 200 0
+
+scoreboard objectives remove TeamDeaths
+scoreboard objectives add TeamDeaths dummy
+scoreboard players set TraitorDead TeamDeaths 0
+scoreboard players set BlueDead TeamDeaths 0
+scoreboard players set GreenDead TeamDeaths 0
+scoreboard players set YellowDead TeamDeaths 0
 
 scoreboard objectives remove revealTraitor
 scoreboard objectives add revealTraitor trigger
 scoreboard players set @a revealTraitor 0
 
+scoreboard objectives remove Deaths
 scoreboard objectives add Deaths deathCount
 scoreboard players set @a Deaths 0
 
+clear @a
+effect clear @a
 team leave @a
-tag @a remove revelead
-tag @a remove traitor
 
-#Init teams
+tag @a remove revealed
+tag @a remove traitor
+tag @a remove dead
+tag @a remove join_blue
+tag @a remove join_green
+tag @a remove join_yellow
+
 team add Spectator "Spectator"
 team modify Spectator color gray
 team modify Spectator friendlyFire false
