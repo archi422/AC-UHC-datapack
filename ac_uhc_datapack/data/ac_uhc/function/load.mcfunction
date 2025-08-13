@@ -3,8 +3,13 @@ worldborder warning distance 50
 
 setworldspawn 0 200 0
 
+scoreboard objectives remove GameScore
+scoreboard objectives add GameScore dummy
+scoreboard players set GameScore GameScore 0
+
 scoreboard objectives remove TeamDeaths
 scoreboard objectives add TeamDeaths dummy
+
 scoreboard players set TraitorDead TeamDeaths 0
 scoreboard players set BlueDead TeamDeaths 0
 scoreboard players set GreenDead TeamDeaths 0
