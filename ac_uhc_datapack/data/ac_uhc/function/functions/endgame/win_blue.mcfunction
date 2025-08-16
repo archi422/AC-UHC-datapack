@@ -12,7 +12,9 @@ function ac_uhc:functions/endgame/win
 effect give @a[team=Blue, tag=!traitor] minecraft:glowing 10 10 true
 
 teleport @a[team=Blue, tag=!traitor] 0.50 63.00 -9.5 0 -15
-teleport @a[team=!Blue,tag=traitor] 0.5 63.00 7.5 180 -40
+
+teleport @a[team=!Blue] 0.5 63.00 7.5 180 -40
+teleport @a[tag=traitor] 0.5 63.00 7.5 180 -40
 
 schedule function ac_uhc:functions/fireworks/blue/pair1 100t
 schedule function ac_uhc:functions/fireworks/blue/pair2 120t
