@@ -1,0 +1,10 @@
+player player1 spawn
+player player2 spawn
+player player3 spawn
+player player4 spawn
+player player5 spawn
+player player6 spawn
+player player7 spawn
+player player8 spawn
+player player9 spawn
+player player10 spawn

@@ -1,0 +1,2 @@
+summon firework_rocket 15.5 69.00 2.5 {LifeTime:25,FireworksItem:{id:firework_rocket,count:1,components:{fireworks:{flight_duration:2,explosions:[{shape:"burst",has_twinkle:true,has_trail:true,colors:[I;4312372]},{shape:"star",has_twinkle:true,has_trail:true,colors:[I;4312372]}]}}}}
+summon firework_rocket -14.5 69.00 2.5 {LifeTime:25,FireworksItem:{id:firework_rocket,count:1,components:{fireworks:{flight_duration:2,explosions:[{shape:"burst",has_twinkle:true,has_trail:true,colors:[I;4312372]},{shape:"star",has_twinkle:true,has_trail:true,colors:[I;4312372]}]}}}}

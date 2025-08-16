@@ -1,0 +1,1 @@
+place template ac_uhc:spawn_podium -15 61 -20

@@ -1,0 +1,10 @@
+player player1 kill
+player player2 kill
+player player3 kill
+player player4 kill
+player player5 kill
+player player6 kill
+player player7 kill
+player player8 kill
+player player9 kill
+player player10 kill
