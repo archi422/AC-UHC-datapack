@@ -1,6 +1,5 @@
 gamemode adventure @a
 clear @a
-effect clear @a
 
 spawnpoint @a 0 63 7
 
