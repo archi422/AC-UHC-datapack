@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"The abyss calls forth its chosen...,","color":"red"},{"text":"\n"},{"text":"The traitors will soon emerge.","color":"red"}]

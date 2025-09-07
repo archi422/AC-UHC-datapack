@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"5 Minutes until the border shrinks!","color":"gold"}]

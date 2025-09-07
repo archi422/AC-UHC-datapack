@@ -15,5 +15,8 @@ gamemode survival @a
 
 schedule function ac_uhc:functions/events/start_hardcore 6000t
 
+schedule function ac_uhc:functions/titles/traitor_warning 10800t
 schedule function ac_uhc:functions/events/role_reveal 12000t
+
+schedule function ac_uhc:functions/titles/border_warning 18000t
 schedule function ac_uhc:functions/events/border_shrink 24000t
